@@ -68,10 +68,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl-qti \
-    libswdap \
-    vendor.samsung.hardware.bluetooth.a2dp@1.0 \
-    vendor.samsung.hardware.bluetooth@2.0 \
-    lib_SamsungRec_07020 \
     camera.exynos990 \
     libbauthserver \
     libbauthtzcommon \
@@ -88,6 +84,9 @@ PRODUCT_PACKAGES += \
     libwrappergps \
     sensors.grip \
     sensors.sensorhub \
+    libswdap \
+    vendor.samsung.hardware.bluetooth.a2dp@1.0 \
+    vendor.samsung.hardware.bluetooth@2.0 \
     HotwordEnrollmentOKGoogleEx2CORTEXM4 \
     HotwordEnrollmentXGoogleEx2CORTEXM4 \
     android.hardware.bluetooth@1.0-service-qti \
